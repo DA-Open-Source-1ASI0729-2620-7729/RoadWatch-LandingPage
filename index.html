@@ -845,7 +845,269 @@
     </div>
   </div>
 </section>
-    <!-- Pricing will be added in feature/pricing -->
+   <!-- Pricing -->
+<section class="pricing-section" id="plans">
+  <div class="pricing-container">
+
+    <div class="pricing-heading">
+      <span class="pricing-pill" data-i18n="pricing.kicker">
+        PRICING
+      </span>
+
+      <h2 data-i18n="pricing.title">
+        Flexible, Scalable Subscription Plans
+      </h2>
+
+      <p data-i18n="pricing.subtitle">
+        Select the SaaS tier tailored to your highway consortium
+        or environmental consultancy.
+      </p>
+    </div>
+
+    <div class="billing-toggle">
+      <button
+        class="billing-btn active"
+        type="button"
+        data-billing="monthly"
+        data-i18n="pricing.monthly"
+      >
+        Monthly Billing
+      </button>
+
+      <button
+        class="billing-btn"
+        type="button"
+        data-billing="annual"
+      >
+        <span data-i18n="pricing.annual">
+          Annual
+        </span>
+
+        <span class="billing-free" data-i18n="pricing.free">
+          2 months free
+        </span>
+      </button>
+    </div>
+
+    <div class="pricing-grid">
+
+      <!-- Base Plan -->
+      <article class="pricing-card">
+
+        <span class="plan-audience" data-i18n="pricing.base.audience">
+          FOR SMALL ROAD CONTRACTORS
+        </span>
+
+        <h3 data-i18n="pricing.base.name">
+          Base Plan
+        </h3>
+
+        <p class="plan-description" data-i18n="pricing.base.description">
+          Ideal for routine maintenance projects or short highway
+          stretches requiring standard monitoring.
+        </p>
+
+        <div class="plan-price">
+          <span class="currency">$</span>
+
+          <span
+            class="price-value"
+            data-monthly="490"
+            data-annual="408"
+          >
+            490
+          </span>
+
+          <span class="price-period" data-i18n="pricing.perMonth">
+            / mo
+          </span>
+        </div>
+
+        <a
+          href="#contact"
+          class="plan-btn plan-btn--light"
+          data-i18n="pricing.base.cta"
+        >
+          Select Base Plan
+        </a>
+
+        <div class="plan-divider"></div>
+
+        <span class="features-label" data-i18n="pricing.included">
+          INCLUDED FEATURES:
+        </span>
+
+        <ul class="plan-features">
+          <li data-i18n="pricing.base.f1">
+            Up to 3 active road projects simultaneously
+          </li>
+
+          <li data-i18n="pricing.base.f2">
+            Standard georeferenced dashboards
+          </li>
+
+          <li data-i18n="pricing.base.f3">
+            PM10 and Noise (dBA) logging
+          </li>
+
+          <li data-i18n="pricing.base.f4">
+            Automated email alerts
+          </li>
+
+          <li data-i18n="pricing.base.f5">
+            Standard business hours support (48h SLA)
+          </li>
+        </ul>
+
+      </article>
+
+      <!-- Professional Plan -->
+      <article class="pricing-card pricing-card--featured">
+
+        <span class="popular-badge" data-i18n="pricing.popular">
+          MOST POPULAR
+        </span>
+
+        <span class="plan-audience" data-i18n="pricing.pro.audience">
+          FOR ENVIRONMENTAL CONSULTANTS & CONCESSIONAIRES
+        </span>
+
+        <h3 data-i18n="pricing.pro.name">
+          Professional Plan
+        </h3>
+
+        <p class="plan-description" data-i18n="pricing.pro.description">
+          For highway supervision and concessionaire firms demanding
+          full scalability and multi-user management.
+        </p>
+
+        <div class="plan-price">
+          <span class="currency">$</span>
+
+          <span
+            class="price-value"
+            data-monthly="1290"
+            data-annual="1075"
+          >
+            1,290
+          </span>
+
+          <span class="price-period" data-i18n="pricing.perMonth">
+            / mo
+          </span>
+        </div>
+
+        <a
+          href="#contact"
+          class="plan-btn plan-btn--featured"
+          data-i18n="pricing.pro.cta"
+        >
+          Get Professional Plan
+        </a>
+
+        <div class="plan-divider plan-divider--dark"></div>
+
+        <span class="features-label" data-i18n="pricing.basePlus">
+          EVERYTHING IN BASE PLUS:
+        </span>
+
+        <ul class="plan-features">
+          <li data-i18n="pricing.pro.f1">
+            Unlimited road projects on platform
+          </li>
+
+          <li data-i18n="pricing.pro.f2">
+            Complete water telemetry (pH, NTU, TPH)
+          </li>
+
+          <li data-i18n="pricing.pro.f3">
+            Field mitigation workflow with offline mobile app
+          </li>
+
+          <li data-i18n="pricing.pro.f4">
+            Instant WhatsApp alerts to field crews
+          </li>
+
+          <li data-i18n="pricing.pro.f5">
+            PDF/A reports with cryptographic digital signature
+          </li>
+        </ul>
+
+      </article>
+
+      <!-- Enterprise Plan -->
+      <article class="pricing-card">
+
+        <span class="plan-audience" data-i18n="pricing.enterprise.audience">
+          FOR MAJOR HIGHWAY CONSORTIUMS
+        </span>
+
+        <h3 data-i18n="pricing.enterprise.name">
+          Enterprise Plan
+        </h3>
+
+        <p class="plan-description" data-i18n="pricing.enterprise.description">
+          For national-scale infrastructure consortia with custom
+          integration, white-label, and dedicated audit requirements.
+        </p>
+
+        <div class="plan-price">
+          <span class="currency">$</span>
+
+          <span
+            class="price-value"
+            data-monthly="2850"
+            data-annual="2375"
+          >
+            2,850
+          </span>
+
+          <span class="price-period" data-i18n="pricing.perMonth">
+            / mo
+          </span>
+        </div>
+
+        <a
+          href="#contact"
+          class="plan-btn plan-btn--dark"
+          data-i18n="pricing.enterprise.cta"
+        >
+          Contact Sales
+        </a>
+
+        <div class="plan-divider"></div>
+
+        <span class="features-label" data-i18n="pricing.proPlus">
+          EVERYTHING IN PROFESSIONAL PLUS:
+        </span>
+
+        <ul class="plan-features">
+          <li data-i18n="pricing.enterprise.f1">
+            Full RESTful API, SCADA & ArcGIS integration
+          </li>
+
+          <li data-i18n="pricing.enterprise.f2">
+            Custom institutional white-label deployment
+          </li>
+
+          <li data-i18n="pricing.enterprise.f3">
+            Priority 24/7 technical and legal support
+          </li>
+
+          <li data-i18n="pricing.enterprise.f4">
+            Unlimited telemetry projects and nodes
+          </li>
+
+          <li data-i18n="pricing.enterprise.f5">
+            On-site expert support during environmental audits
+          </li>
+        </ul>
+
+      </article>
+
+    </div>
+  </div>
+</section>
     <!-- Testimonials will be added in feature/testimonials -->
 
   </main>
