@@ -10,7 +10,6 @@
   --muted: #56616B;
   --border: #E7E7E2;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -60,17 +59,23 @@ img {
 }
 
 .brand-logo {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background: var(--green);
-  color: white;
-  font-size: 12px;
-  font-weight: 800;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+  flex-shrink: 0;
 }
 
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
 .brand-text {
   display: flex;
   flex-direction: column;
